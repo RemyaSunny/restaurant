@@ -1,0 +1,113 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+  
+header {
+     /* background-color: #f9bf3b; */
+    background-image: url('assets/red1.jpeg');
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-size: cover;
+  /* Specify background position */
+  background-position: center;
+  /* Prevent background image from repeating */
+  background-repeat: no-repeat;
+  color: bisque;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:beige;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.foodlogo {
+    display: flex;
+    justify-content: center; /* Align items horizontally to the center */
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center the image horizontally and add margin */
+}
+.video-placeholder {
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-info {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align:left;
+}
+
+footer {
+    background-color: #6a0303;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Align items horizontally to the center */
+    gap: 20px;
+  }
+  
+  .grid-item {
+    flex: 0 0 calc(25% - 20px); /* Make each item take up a quarter of the container width with a gap of 20px */
+    text-align: center;
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  
+  
